@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Announcements — StudentHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <a href="dashboard.html" class="logo">StudentHub</a>
+  <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="attendance.html">Attendance</a></li>
+      <li><a href="fees.html">Fees</a></li>
+      <li><a href="announcements.html" aria-current="page">Announcements</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="header-controls">
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">🌙</button>
+    <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-shell">
+
+    <div class="page-head">
+      <h1>Announcements</h1>
+      <p>Notices from the college.</p>
+    </div>
+
+    <div class="filter-bar">
+      <div class="field" style="margin-bottom:0; flex:2;">
+        <label for="search-input">Search</label>
+        <input type="text" id="search-input" placeholder="Search by title...">
+      </div>
+      <div class="field" style="margin-bottom:0;">
+        <label for="category-select">Category</label>
+        <select id="category-select">
+          <option value="">All categories</option>
+          <option value="Academic">Academic</option>
+          <option value="Event">Event</option>
+          <option value="Fees">Fees</option>
+          <option value="Facility">Facility</option>
+        </select>
+      </div>
+      <div class="field" style="margin-bottom:0;">
+        <label for="sort-select">Sort by</label>
+        <select id="sort-select">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+        </select>
+      </div>
+    </div>
+
+    <p id="announcements-status" aria-live="polite">Loading announcements...</p>
+
+    <div id="announcements-container"></div>
+
+    <div class="pagination">
+      <button type="button" id="prev-page-btn" class="btn btn-secondary">← Previous</button>
+      <span id="page-info">Page 1</span>
+      <button type="button" id="next-page-btn" class="btn btn-secondary">Next →</button>
+    </div>
+
+    <a href="dashboard.html" class="back-link">← Back to Dashboard</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 StudentHub, a student project in web development.</p>
+  <p class="footer-badge">Charu Cert</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

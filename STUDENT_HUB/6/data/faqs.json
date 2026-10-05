@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "question": "How do I reset my password?",
+    "answer": "Password reset isn't automated yet — email the admin office and they'll issue a temporary one while that feature is being built.",
+    "category": "Account"
+  },
+  {
+    "id": 2,
+    "question": "How do I update my profile details?",
+    "answer": "Go to the Profile page from the nav menu, edit any field, and click Save changes.",
+    "category": "Account"
+  },
+  {
+    "id": 3,
+    "question": "Can I change my registered email address?",
+    "answer": "Not directly through the portal yet — contact the admin office to update your registered email.",
+    "category": "Account"
+  },
+  {
+    "id": 4,
+    "question": "What happens if I forget my student ID?",
+    "answer": "Your student ID is shown on your Profile page once you're logged in, and also printed on your admission letter.",
+    "category": "Account"
+  },
+  {
+    "id": 5,
+    "question": "Where does my attendance data come from?",
+    "answer": "Right now the Attendance page shows placeholder values. Once the database is connected in a later practical, it will reflect real class records.",
+    "category": "Academics"
+  },
+  {
+    "id": 6,
+    "question": "How is my overall attendance percentage calculated?",
+    "answer": "It's the total classes you attended divided by the total classes held, across all subjects, shown as a percentage.",
+    "category": "Academics"
+  },
+  {
+    "id": 7,
+    "question": "What happens if my attendance falls below the minimum requirement?",
+    "answer": "You'll see a warning on your Dashboard, and the department may contact you directly if it stays low near exam time.",
+    "category": "Academics"
+  },
+  {
+    "id": 8,
+    "question": "Can I see attendance for previous semesters?",
+    "answer": "Not yet — the current version only shows the active semester. Historical records are planned for a future update.",
+    "category": "Academics"
+  },
+  {
+    "id": 9,
+    "question": "How do I check my fee due date?",
+    "answer": "Open the Fees page — the Due card shows your outstanding balance, and the receipts table lists past payment dates.",
+    "category": "Fees"
+  },
+  {
+    "id": 10,
+    "question": "What payment methods are accepted for fees?",
+    "answer": "The Pay now button currently opens a demo confirmation — real payment gateway integration comes later in the course.",
+    "category": "Fees"
+  },
+  {
+    "id": 11,
+    "question": "Will I get a receipt after paying fees online?",
+    "answer": "Yes, once online payments are connected, a receipt will automatically appear in your Fees page receipt table.",
+    "category": "Fees"
+  },
+  {
+    "id": 12,
+    "question": "Is there a late fee penalty?",
+    "answer": "Yes, a late fee applies after the due date shown on your Fees page — pay early to avoid it.",
+    "category": "Fees"
+  },
+  {
+    "id": 13,
+    "question": "Can I use StudentHub on my phone?",
+    "answer": "Yes — every page adapts to phone, tablet, and desktop screens, and the navigation switches to a compact menu on smaller screens.",
+    "category": "Technical"
+  },
+  {
+    "id": 14,
+    "question": "Which browsers does StudentHub support?",
+    "answer": "Any recent version of Chrome, Firefox, Edge, or Safari works fine. Very old browser versions may not support some features.",
+    "category": "Technical"
+  },
+  {
+    "id": 15,
+    "question": "Why isn't the announcements page loading data?",
+    "answer": "The Announcements page needs to be opened through a local server (like Live Server), not by double-clicking the file directly.",
+    "category": "Technical"
+  }
+]
