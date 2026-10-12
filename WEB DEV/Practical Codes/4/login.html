@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login — StudentHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header class="site-header">
+  <a href="index.html" class="logo">StudentHub</a>
+  <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="login.html" aria-current="page">Login</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+  </nav>
+  <div class="header-controls">
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">🌙</button>
+    <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="form-shell">
+    <div class="form-card">
+      <h1>Welcome back</h1>
+      <p class="form-sub">Log in to reach your dashboard.</p>
+
+      <form action="dashboard.html" method="post">
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="current-password" required>
+        </div>
+
+        <div class="check-line">
+          <input type="checkbox" id="remember" name="remember">
+          <label for="remember">Remember me on this device</label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+      </form>
+
+      <p class="form-foot">New here? <a href="register.html">Create an account</a></p>
+    </div>
+  </div>
+
+  <div class="page-shell" style="text-align:center; padding-top: 0;">
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p> 2026 StudentHub, a student project in web development.</p>
+  <p class="footer-badge">Charusat</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
