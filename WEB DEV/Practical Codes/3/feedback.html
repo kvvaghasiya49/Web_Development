@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedback — StudentHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header class="site-header">
+  <a href="dashboard.html" class="logo">StudentHub</a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="attendance.html">Attendance</a></li>
+      <li><a href="fees.html">Fees</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="feedback.html" aria-current="page">Feedback</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main-content">
+  <div class="page-shell">
+
+    <div class="page-head">
+      <h1>Share your feedback</h1>
+      <p>Tell us how a subject or teacher is going.</p>
+    </div>
+
+    <div class="form-card wide" style="margin: 0;">
+      <form action="dashboard.html" method="post">
+        <div class="field-row">
+          <div class="field">
+            <label for="f-subject">Subject</label>
+            <input type="text" id="f-subject" name="subject" required>
+          </div>
+          <div class="field">
+            <label for="f-teacher">Teacher</label>
+            <input type="text" id="f-teacher" name="teacher" required>
+          </div>
+        </div>
+
+        <fieldset>
+          <legend>Rating</legend>
+          <div class="rating-row">
+            <span class="rating-option">
+              <input type="radio" id="r1" name="rating" value="1"><label for="r1">1</label>
+            </span>
+            <span class="rating-option">
+              <input type="radio" id="r2" name="rating" value="2"><label for="r2">2</label>
+            </span>
+            <span class="rating-option">
+              <input type="radio" id="r3" name="rating" value="3"><label for="r3">3</label>
+            </span>
+            <span class="rating-option">
+              <input type="radio" id="r4" name="rating" value="4"><label for="r4">4</label>
+            </span>
+            <span class="rating-option">
+              <input type="radio" id="r5" name="rating" value="5"><label for="r5">5</label>
+            </span>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="f-message">Your message</label>
+          <textarea id="f-message" name="message" rows="5"></textarea>
+        </div>
+
+        <div style="display:flex; align-items:center; gap: var(--space-3); flex-wrap:wrap;">
+          <button type="submit" class="btn btn-primary">Submit feedback</button>
+          <a href="dashboard.html" class="back-link" style="margin-top:0;">← Back to Dashboard</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p> 2026 StudentHub, a student project in web development.</p>
+  <p class="footer-badge">Charusat</p>
+</footer>
+
+</body>
+</html>

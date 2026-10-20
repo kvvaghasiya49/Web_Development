@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile — StudentHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="dashboard.html" class="logo">StudentHub</a>
+  <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="attendance.html">Attendance</a></li>
+      <li><a href="fees.html">Fees</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="profile.html" aria-current="page">Profile</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="header-controls">
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">🌙</button>
+    <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-shell">
+
+    <div class="page-head">
+      <h1>My profile</h1>
+      <p>Keep your details up to date.</p>
+    </div>
+
+    <form action="dashboard.html" method="post">
+      <div class="profile-layout">
+        <div class="profile-photo" aria-hidden="true">Photo</div>
+
+        <div class="profile-fields">
+          <div class="field">
+            <label for="p-fullname">Full name</label>
+            <input type="text" id="p-fullname" name="fullname" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="p-email">Email</label>
+            <input type="email" id="p-email" name="email" autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="p-phone">Phone number</label>
+            <input type="tel" id="p-phone" name="phone" autocomplete="tel">
+          </div>
+        </div>
+      </div>
+
+      <div class="field-row" style="margin-top: var(--space-3);">
+        <div class="field">
+          <label for="p-course">Course</label>
+          <input type="text" id="p-course" name="course">
+        </div>
+        <div class="field">
+          <label for="p-year">Year</label>
+          <input type="text" id="p-year" name="year">
+        </div>
+      </div>
+
+      <div style="display:flex; align-items:center; gap: var(--space-3); flex-wrap:wrap;">
+        <button type="submit" class="btn btn-primary">Save changes</button>
+        <a href="dashboard.html" class="back-link" style="margin-top:0;">← Back to Dashboard</a>
+      </div>
+    </form>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p> 2026 StudentHub, a student project in web development.</p>
+  <p class="footer-badge">Charusat</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

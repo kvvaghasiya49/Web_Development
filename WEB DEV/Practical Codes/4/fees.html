@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fees — StudentHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header class="site-header">
+  <a href="dashboard.html" class="logo">StudentHub</a>
+  <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="attendance.html">Attendance</a></li>
+      <li><a href="fees.html" aria-current="page">Fees</a></li>
+      <li><a href="announcements.html">Announcements</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="feedback.html">Feedback</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </nav>
+  <div class="header-controls">
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">🌙</button>
+    <button type="button" id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="page-shell">
+
+    <div class="page-head">
+      <h1>Fees details</h1>
+      <p>Your payment status and past receipts.</p>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="stat-label">Total fees</div>
+        <div class="stat-value">–</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Paid</div>
+        <div class="stat-value">–</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Due</div>
+        <div class="stat-value">–</div>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <table>
+        <caption class="visually-hidden">Fee receipts</caption>
+        <thead>
+          <tr>
+            <th scope="col">Receipt</th>
+            <th scope="col">Date</th>
+            <th scope="col">Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Receipt 1</td><td>–</td><td>–</td></tr>
+          <tr><td>Receipt 2</td><td>–</td><td>–</td></tr>
+          <tr><td>Receipt 3</td><td>–</td><td>–</td></tr>
+          <tr><td>Receipt 4</td><td>–</td><td>–</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="display:flex; align-items:center; gap: var(--space-3); flex-wrap:wrap;">
+      <button type="button" id="pay-now-btn" class="btn btn-primary">Pay now</button>
+      <a href="dashboard.html" class="back-link" style="margin-top:0;">← Back to Dashboard</a>
+    </div>
+
+    <div class="modal-overlay" id="pay-modal" hidden>
+      <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="pay-modal-title">
+        <h2 id="pay-modal-title">Confirm payment</h2>
+        <p>This is a demo confirmation only — no real payment gateway is connected yet. That's handled by the database and PHP practicals later in the course.</p>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-secondary" id="pay-modal-cancel">Cancel</button>
+          <button type="button" class="btn btn-primary" id="pay-modal-confirm">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p> 2026 StudentHub, a student project in web development.</p>
+  <p class="footer-badge">Charusat</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>

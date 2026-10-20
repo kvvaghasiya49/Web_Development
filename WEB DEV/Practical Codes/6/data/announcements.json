@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "title": "Mid-semester break notice",
+    "message": "Classes will be suspended from the 14th to the 18th for the mid-semester break. Regular schedule resumes the following Monday.",
+    "date": "2026-09-18",
+    "category": "Academic"
+  },
+  {
+    "id": 2,
+    "title": "Library timings extended for exam week",
+    "message": "The central library will stay open until 11 PM starting next week to support exam preparation.",
+    "date": "2026-09-17",
+    "category": "Facility"
+  },
+  {
+    "id": 3,
+    "title": "Placement drive registration open",
+    "message": "Third and fourth year students can register for the upcoming campus placement drive through the placement cell.",
+    "date": "2026-09-15",
+    "category": "Event"
+  },
+  {
+    "id": 4,
+    "title": "Sports day schedule released",
+    "message": "The annual sports day schedule is now available. Event registration closes this Friday.",
+    "date": "2026-09-13",
+    "category": "Event"
+  },
+  {
+    "id": 5,
+    "title": "Fee payment deadline reminder",
+    "message": "Second installment fees are due by the end of this month. Pay early to avoid late payment charges.",
+    "date": "2026-09-12",
+    "category": "Fees"
+  },
+  {
+    "id": 6,
+    "title": "Guest lecture on cybersecurity",
+    "message": "An industry expert will deliver a guest lecture on web security fundamentals in the main auditorium.",
+    "date": "2026-09-10",
+    "category": "Academic"
+  },
+  {
+    "id": 7,
+    "title": "Hostel water supply maintenance",
+    "message": "Water supply to hostel blocks A and B will be interrupted for maintenance work from 10 AM to 2 PM.",
+    "date": "2026-09-09",
+    "category": "Facility"
+  },
+  {
+    "id": 8,
+    "title": "Blood donation camp",
+    "message": "The student council is organizing a voluntary blood donation camp in collaboration with the city hospital.",
+    "date": "2026-09-08",
+    "category": "Event"
+  },
+  {
+    "id": 9,
+    "title": "Late fee waiver announced",
+    "message": "Students who missed the fee deadline due to technical issues can request a late fee waiver from the accounts office.",
+    "date": "2026-09-06",
+    "category": "Fees"
+  },
+  {
+    "id": 10,
+    "title": "Wi-Fi upgrade this weekend",
+    "message": "Campus Wi-Fi will be upgraded this Saturday between 1 AM and 5 AM. Brief outages are expected during this window.",
+    "date": "2026-09-05",
+    "category": "Facility"
+  },
+  {
+    "id": 11,
+    "title": "Alumni meet registrations open",
+    "message": "Graduating batches from the last five years are invited to register for the annual alumni meet.",
+    "date": "2026-09-03",
+    "category": "Event"
+  },
+  {
+    "id": 12,
+    "title": "Internship info session",
+    "message": "The training and placement cell will hold an information session on summer internship opportunities.",
+    "date": "2026-09-02",
+    "category": "Academic"
+  },
+  {
+    "id": 13,
+    "title": "Exam datesheet released",
+    "message": "The end-semester exam datesheet has been published. Students should check their exact slot and hall allocation.",
+    "date": "2026-08-30",
+    "category": "Academic"
+  },
+  {
+    "id": 14,
+    "title": "Cultural fest volunteer signup",
+    "message": "Volunteers are needed for the upcoming cultural fest. Sign up at the student activity center by Friday.",
+    "date": "2026-08-28",
+    "category": "Event"
+  },
+  {
+    "id": 15,
+    "title": "Scholarship application window open",
+    "message": "Merit and need-based scholarship applications are now open. Submit documents to the accounts office before the deadline.",
+    "date": "2026-08-25",
+    "category": "Fees"
+  }
+]
